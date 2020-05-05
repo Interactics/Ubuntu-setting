@@ -7,5 +7,5 @@ copy `vimrc.txt` and paste at ~/.bashrc
 
 ### requirement 
 
-    sudo apt install fonts-nanum-coding
+    sudo apt install fonts-naver-d2coding
 
