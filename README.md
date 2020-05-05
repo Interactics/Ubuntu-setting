@@ -1,7 +1,7 @@
 # Ubuntu setting
 
 ## vim setting 
-copy and paste at ~/.bashrc 
+copy `vimrc.txt` and paste at ~/.bashrc 
 
 ## terminator setting 
 
