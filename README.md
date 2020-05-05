@@ -5,7 +5,7 @@ copy and paste at ~/.bashrc
 
 ## terminator setting 
 
-- requirement 
+### requirement 
 
     sudo apt install fonts-nanum-coding
 
