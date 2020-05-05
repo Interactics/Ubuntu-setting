@@ -1,4 +1,11 @@
-# VIM-setting
+# Ubuntu setting
 
+## vim setting 
 copy and paste at ~/.bashrc 
-https://programmingsummaries.tistory.com/361
+
+## terminator setting 
+
+- requirement 
+
+    sudo apt install fonts-nanum-coding
+
