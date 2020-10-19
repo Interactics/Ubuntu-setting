@@ -10,6 +10,8 @@ copy `vimrc.txt` and paste at `~/.vimrc`
 
 ## terminator setting 
 
+## tmux setting 
+
 ### requirement 
 
     sudo apt install fonts-naver-d2coding
