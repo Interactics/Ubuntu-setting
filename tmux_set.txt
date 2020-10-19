@@ -1,0 +1,17 @@
+
+# 1 Tmux Setiing Change
+
+cd ~/
+git clone https://github.com/gpakosz/.tmux.git
+ln -s -f .tmux/.tmux.conf
+cp .tmux/.tmux.conf.local .
+
+
+vim .tmux/.tmux.conf.local
+
+# 2 Delete behind comments
+
+# force Vi mode
+# really you should export VISUAL or EDITOR environment variable, see manual
+set -g status-keys vi
+set -g mode-keys vi
