@@ -19,3 +19,16 @@ copy `vimrc.txt` and paste at `~/.vimrc`
 
 
 copy `terminator_setting.txt` and paste at `~/.config/terminator/config`
+
+## Memory Swap 
+    sudo swapoff -v /swapfile # 비활성화
+    sudo fallocate -l 8G /swapfile # 8G 설정
+    sudo chmod 600 /swapfile
+    sudo mkswap /swapfile
+    sudo swapon /swapfile
+    
+    # /etc/fstab 에서
+    swapfile none swap sw 0 0
+    
+    # 확인 
+    free -m 
