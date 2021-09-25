@@ -17,7 +17,9 @@ copy `vimrc.txt` and paste at `~/.vimrc`
 ## 우분투 한글 설정
 1. Terminal에서 uim을 설치한다.
 
-    sudo apt-get install uim 
+```
+sudo apt-get install uim
+```    
 
 2. `setting` → `Region & Language` 항목의 `Manage installed Language` 클릭 입력기를 UIM으로 변경
     
