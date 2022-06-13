@@ -51,6 +51,13 @@
 copy `vimrc.txt` and paste at `~/.vimrc`
 
 ## 우분투 한글 설정
+### kime 
+
+    wget https://github.com/Riey/kime/releases/download/v2.5.6/kime_ubuntu-20.04_v2.5.6_amd64.deb
+    sudo dpkg -i kime_ubuntu-20.04_v2.5.6_amd64.deb
+
+
+### uim 
 1. Terminal에서 uim을 설치한다.
 
 ```
