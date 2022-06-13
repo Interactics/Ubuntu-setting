@@ -12,6 +12,7 @@
     sudo apt install -y kolourpaint    #Paint
     sudo apt install -y git vim 
     sudo apt install -y zsh
+    chsh -s /usr/bin/zsh 
     
     
 ### oh my zsh
