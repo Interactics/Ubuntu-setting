@@ -1,14 +1,50 @@
 # Ubuntu setting
 
-## time sync
-
-    timedatectl set-local-rtc 1 -- adjust-system-clock
 
 ## Change Server from KAIST to KAKAO
 
     sudo sed -i 's/kr.archive.ubuntu.com/mirror.kakao.com/g' /etc/apt/sources.list  #KOREA
     sudo sed -i 's/archive.ubuntu.com/mirror.kakao.com/g' /etc/apt/sources.list # 미국
     sudo sed -i 's/ports.ubuntu.com/ftp.harukasan.org/g' /etc/apt/sources.list # 라즈베리 파이
+
+## install APPs 
+
+    sudo apt install -y kolourpaint    #Paint
+    sudo apt install -y git vim 
+    sudo apt install -y zsh
+    
+    
+### oh my zsh
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    vi ~/.zshrc
+    # 11 line -> ZSH_THEME="agnoster"
+    source ~/.zshrc
+    sudo apt install -y fonts-powerline
+    sudo apt install -y fonts-naver-d2coding
+
+    
+
+## tilix
+
+    sudo apt install tilix
+    sudo update-alternatives --config x-terminal-emulator ## Changing default terminal
+
+## typora
+
+    # or use
+	# sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys BA300B7755AFCFAE
+	wget -qO - https://typora.io/linux/public-key.asc | sudo apt-key add -
+	 
+	# add Typora's repository
+	sudo add-apt-repository 'deb https://typora.io/linux ./'
+	sudo apt-get update
+	 
+	# install typora
+	sudo apt-get install typora
+
+## time sync
+
+    timedatectl set-local-rtc 1 -- adjust-system-clock
     
 
 ## vim setting 
@@ -44,7 +80,6 @@ sudo apt-get install uim
 
 ### requirement 
 
-    sudo apt install fonts-naver-d2coding
 
 
 copy `terminator_setting.txt` and paste at `~/.config/terminator/config`
