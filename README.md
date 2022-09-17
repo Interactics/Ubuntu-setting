@@ -1,5 +1,9 @@
 # Ubuntu setting
 
+## 우분투-윈도우 시간 불일치
+    
+    timedatectl set-local-rtc 1 --adjust-system-clock
+
 
 ## Change Server from KAIST to KAKAO
 
